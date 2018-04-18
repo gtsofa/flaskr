@@ -1,0 +1,3 @@
+I chained a command that included checking out a git repo using root status so the checked out files were owned by Root and not Ubuntu
+which is the correct user for the IDE view. To resolve this I went to the top of my workspace folder and ran this:
+# sudo chown -R ubuntu *
